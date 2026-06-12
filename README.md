@@ -127,19 +127,27 @@ const developer = {
 
 ## 🗺️ Learning Roadmap
 
-<div align="center">
+```mermaid
+flowchart LR
+    P1["🌐 Phase 1\nFrontend Foundations\nCh. 01–06"] --> P2["⚡ Phase 2\nJavaScript\nCh. 07–13"]
+    P2 --> P3["⚛️ Phase 3\nReact.js\nCh. 14–18"]
+    P3 --> P4["🖥️ Phase 4\nNode + Express\nCh. 19–22"]
+    P4 --> P5["🍃 Phase 5\nMongoDB\nCh. 23–24"]
+    P5 --> P6["⚡ Phase 6\nFastAPI\nCh. 25–26"]
+    P6 --> P7["🚀 Phase 7\nModern Stack\nCh. 27–30"]
 
-```
-Phase 1 ──► Phase 2 ──► Phase 3 ──► Phase 4 ──► Phase 5 ──► Phase 6 ──► Phase 7
-   │            │            │            │            │            │           │
-Frontend     JavaScript   React.js    Node/Express  MongoDB    FastAPI    Modern
-Foundations  (Ch.07-13)  (Ch.14-18)  (Ch.19-22)  (Ch.23-24) (Ch.25-26) (Ch.27-30)
-(Ch.01-06)      │            │            │            │            │           │
-   │         [Mini P2]    [Mini P3]    [Mini P4]    [Mini P4]  [Capstone] [Capstone]
-[Mini P1]
-```
+    P1 --> MP1(["🎨 Mini Project 01"])
+    P2 --> MP2(["⚡ Mini Project 02"])
+    P3 --> MP3(["⚛️ Mini Project 03"])
+    P5 --> MP4(["🌿 Mini Project 04"])
+    P7 --> CAP(["🏆 Capstone"])
 
-</div>
+    style MP1 fill:#F7DF1E,color:#000
+    style MP2 fill:#F7DF1E,color:#000
+    style MP3 fill:#61DAFB,color:#000
+    style MP4 fill:#47A248,color:#fff
+    style CAP fill:#E34F26,color:#fff
+```
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
